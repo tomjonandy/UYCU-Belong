@@ -1,5 +1,6 @@
 .jumbotron {
   font-family: 'Titillium Web', sans-serif;
+  height: 67vh;
 }
 
 .logo-font {
@@ -17,4 +18,41 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: #222;
+  color: #ccc;
+}
+
+.lunch-heading, .evening-heading{
+  position: relative;
+  background-color: rgba(31,31,31,0.65);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33vh;
+}
+
+.lunch-heading {
+  background-image: url("/img/lunch.jpg");
+}
+
+.evening-heading {
+  background-image: url("/img/marquee.jpg");
+}
+
+.parallax-heading {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10px;
+  opacity: 1;
+}
+
+.parallax-heading span {
+  padding: 18px;
+  background-color: #fff;
+  color: #111;
 }
