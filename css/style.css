@@ -1,6 +1,11 @@
-.jumbotron {
+.title {
   font-family: 'Titillium Web', sans-serif;
   height: 67vh;
+}
+
+.title h1 {
+  font-size: 100px;
+  text-align: center;
 }
 
 .logo-font {
