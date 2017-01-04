@@ -9,7 +9,7 @@
 }
 
 .logo-font {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'BEBAS', sans-serif;
 }
 
 .heading-font {
@@ -51,8 +51,6 @@ body {
   top: 50%;
   width: 100%;
   text-align: center;
-  font-size: 25px;
-  letter-spacing: 10px;
   opacity: 1;
 }
 
@@ -60,6 +58,9 @@ body {
   padding: 18px;
   background-color: #fff;
   color: #111;
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding-right: 8px;
 }
 
 .overview {
