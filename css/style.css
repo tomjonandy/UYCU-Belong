@@ -64,6 +64,11 @@ body {
   padding-right: 8px;
 }
 
+.parallax-heading span img {
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
 .overview {
   font-size: 18px;
   padding-top: 20px;
