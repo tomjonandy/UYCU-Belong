@@ -18,7 +18,7 @@ body {
   color: #ccc;
 }
 
-.lunch-heading, .evening-heading{
+.lunch-heading, .evening-heading, .coffee-heading{
   position: relative;
   background-color: rgba(31,31,31,0.65);
   background-attachment: fixed;
@@ -36,13 +36,19 @@ body {
   background-image: url("/img/marquee.jpg");
 }
 
-.parallax-heading {
+.coffee-heading {
+  background-image: url("/img/coffee.jpg");
+  background-size: cover;
+}
+
+.parallax-heading, .parallax-half-heading {
   position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
   text-align: center;
   opacity: 1;
+  margin-top: -30px;
 }
 
 .parallax-heading span {
@@ -57,6 +63,18 @@ body {
 .parallax-heading span img {
   padding-right: 30px;
   padding-bottom: 5px;
+}
+
+.parallax-half-heading span {
+  padding: 40px;
+  background-color: #fff;
+  color: #111;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.parallax-half-heading span img {
+  padding-bottom: 10px;
 }
 
 .overview {
