@@ -87,3 +87,8 @@ body {
 p {
   text-align: justify;
 }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
