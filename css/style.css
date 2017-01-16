@@ -88,8 +88,8 @@ p {
   text-align: justify;
 }
 
-a {
-  color: inherit;
+a, a:hover, a:active {
+  color: inherit !important;
   text-decoration: underline;
 }
 
