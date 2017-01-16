@@ -92,3 +92,27 @@ a {
   color: inherit;
   text-decoration: underline;
 }
+
+.modal-content {
+  background-color: #222;
+  color: #ccc
+}
+
+.close {
+  opacity: 1;
+  color: #ccc;
+}
+
+.btn-primary, .btn-primary:focus {
+  background-color: #fff;
+  color: #222;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:active {
+  background-color: #ccc !important;
+  color: #222 !important;
+  outline: none !important;
+}
